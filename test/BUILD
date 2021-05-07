@@ -6,8 +6,8 @@ py_test(
     srcs = ["compiler_version_test.py"],
     deps = [
         requirement("attrs"),
-	requirement("chardet"),
-	requirement("idna"),
+	    requirement("chardet"),
+	    requirement("idna"),
         requirement("more-itertools"),
         requirement("packaging"),
         requirement("pluggy"),
